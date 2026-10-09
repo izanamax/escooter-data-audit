@@ -134,5 +134,7 @@ LICENSE              MIT license for this module
 ```
 
 See [design notes](docs/DESIGN.md) and [verification evidence](docs/VERIFICATION.md).
+The [Assignment 3 report (PDF, 10 pages)](docs/Mussin_Assignment_3_2026.pdf)
+connects the theory, implementation and observed results.
 MIT applies to this new module and its synthetic examples, not to outside
 datasets or the separate dissertation detector code.
