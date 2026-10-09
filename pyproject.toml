@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "escooter-data-audit"
+version = "1.0.0"
+description = "COCO detection annotation validation and dataset split leakage checks"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Maxim Mussin"}]
+dependencies = []
+
+[project.scripts]
+escooter-audit = "escooter_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["escooter_audit*"]

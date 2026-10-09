@@ -1,0 +1,48 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "val/frame_001.jpg",
+      "width": 640,
+      "height": 480,
+      "source_sequence": "val-recording"
+    },
+    {
+      "id": 2,
+      "file_name": "val/frame_002.jpg",
+      "width": 640,
+      "height": 480,
+      "source_sequence": "val-recording"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        20,
+        40,
+        30,
+        90
+      ]
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        40,
+        40,
+        30,
+        90
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "e-scooter"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "train/frame_001.jpg",
+      "width": 640,
+      "height": 480,
+      "source_sequence": "train-recording"
+    },
+    {
+      "id": 2,
+      "file_name": "train/frame_002.jpg",
+      "width": 640,
+      "height": 480,
+      "source_sequence": "train-recording"
+    },
+    {
+      "id": 3,
+      "file_name": "train/frame_003.jpg",
+      "width": 640,
+      "height": 480,
+      "source_sequence": "train-recording"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        0,
+        0,
+        -10,
+        20
+      ]
+    },
+    {
+      "id": 2,
+      "image_id": 999,
+      "category_id": 1,
+      "bbox": [
+        40,
+        40,
+        30,
+        90
+      ]
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        60,
+        40,
+        30,
+        90
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "e-scooter"
+    }
+  ]
+}
